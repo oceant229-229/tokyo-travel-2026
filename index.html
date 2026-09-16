@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b1220">
+<meta name="description" content="日本 10 日行程计划 · 离线可用 · 地图导航">
+<title>日本旅行计划</title>
+
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="日本旅行">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="hd">
+  <div class="hd-row">
+    <div class="hd-brand">
+      <span class="hd-logo">🗾</span>
+      <div class="hd-txt">
+        <div class="hd-title" id="tripTitle">日本旅行</div>
+        <div class="hd-sub" id="tripSub">加载中…</div>
+      </div>
+    </div>
+    <div class="net-pill" id="netPill" data-state="online">
+      <span class="net-dot"></span><span id="netText">在线</span>
+    </div>
+  </div>
+  <div class="flights" id="flightBar"></div>
+</header>
+
+<nav class="tabs" id="dayTabs" aria-label="日期切换"></nav>
+
+<main class="main">
+
+  <section class="card">
+    <div class="day-head">
+      <div class="dh-l">
+        <h2 class="day-title" id="dayTitle">—</h2>
+        <p class="day-sub" id="daySub"></p>
+      </div>
+      <span class="day-count" id="dayCount"></span>
+    </div>
+
+    <div class="sec-label">🗺️ 当日路线与地图</div>
+    <div class="map-wrap"><div id="map"></div></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <section class="card">
+    <div class="sec-head">
+      <h3>🕘 当日时间轴</h3>
+      <span class="sec-hint" id="tlHint"></span>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
