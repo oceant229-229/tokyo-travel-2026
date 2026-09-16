@@ -31,8 +31,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
   // 策略 A：OSM 瓦片 —— CacheFirst + LRU 上限
-  if (url.hostname === 'tile.openstreetmap.org' ||
-      url.hostname.endsWith('.tile.openstreetmap.org')) {
+  if (url.hostname.includes('basemaps.cartocdn.com')) {
     event.respondWith((async () => {
       const cache = await caches.open(TILE_CACHE_NAME);
       const cached = await cache.match(event.request);
