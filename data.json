@@ -1,0 +1,263 @@
+{
+  "trip_title": "2026 日本东京·箱根·横滨之旅",
+  "flights": [
+    {
+      "direction": "去程",
+      "flight_no": "CA433",
+      "date": "2026-09-25",
+      "departure_time": "12:50",
+      "departure_airport": "重庆江北 T3",
+      "arrival_time": "18:25",
+      "arrival_airport": "东京成田 T1",
+      "timezone": "Asia/Tokyo"
+    },
+    {
+      "direction": "回程",
+      "flight_no": "CA434",
+      "date": "2026-10-04",
+      "departure_time": "19:25",
+      "departure_airport": "东京成田 T1",
+      "arrival_time": "00:05",
+      "arrival_airport": "重庆江北 T3",
+      "timezone": "Asia/Tokyo"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Mitsui Garden Hotel Nihonbashi Premier",
+      "name_jp": "三井ガーデンホテル日本橋プレミア",
+      "dates": "2026.09.25 - 09.30 (5晚)",
+      "lat": 35.6865,
+      "lng": 139.7733
+    },
+    {
+      "name": "The Prince Hakone Lake Ashinoko",
+      "name_jp": "ザ・プリンス 箱根芦ノ湖",
+      "dates": "2026.09.30 - 10.01 (1晚)",
+      "lat": 35.2155,
+      "lng": 139.0068,
+      "note": "接驳车：16:15 小田原站西口 (预约码: DHSA5Z)"
+    },
+    {
+      "name": "InterContinental Yokohama Pier 8",
+      "name_jp": "インターコンチネンタル横浜Pier 8",
+      "dates": "2026.10.01 - 10.03 (2晚)",
+      "lat": 35.4568,
+      "lng": 139.6418
+    },
+    {
+      "name": "Hotel Metropolitan Oimachi Tracks Tokyo",
+      "name_jp": "ホテルメトロポリタン 大井町トラックス",
+      "dates": "2026.10.03 - 10.04 (1晚)",
+      "lat": 35.6064,
+      "lng": 139.7348
+    }
+  ],
+  "days": [
+    {
+      "day": "Day 1",
+      "date": "2026-09-25",
+      "title": "抵达东京·入住日本桥",
+      "transports": [
+        "20:00 成田机场 T1 乘 JR 成田线·总武快速线（往久里滨/逗子方向）➔ 直达新日本桥站（约 1 小时 20 分），出站步行 1 分钟至酒店。"
+      ],
+      "events": [
+        { "time": "18:25", "title": "抵达成田机场 T1", "type": "fixed", "lat": 35.7647, "lng": 140.3863 },
+        { "time": "21:20", "title": "入住 三井ガーデンホテル日本橋プレミア", "type": "hotel", "lat": 35.6865, "lng": 139.7733 }
+      ]
+    },
+    {
+      "day": "Day 2",
+      "date": "2026-09-26",
+      "title": "新宿·六本木展讯与美食",
+      "events": [
+        { "time": "11:00", "title": "午餐：らぁ麺 はやし田 新宿本店", "type": "food_A", "lat": 35.6908, "lng": 139.7046 },
+        { "time": "12:00", "title": "散步：新宿御苑", "type": "fixed", "lat": 35.6852, "lng": 139.7101 },
+        { 
+          "time": "14:00-16:00", 
+          "title": "国立新美术馆 (卢浮宫展：达芬奇《美丽的费隆妮叶夫人》)", 
+          "type": "museum", 
+          "ticket_url": "https://www.nact.jp/", 
+          "hours": "10:00-18:00 (周二休馆)", 
+          "lat": 35.6653, "lng": 139.7264 
+        },
+        { "time": "16:30", "title": "参观：21_21 DESIGN SIGHT & Tokyo Midtown", "type": "random", "lat": 35.6675, "lng": 139.7303 },
+        { "time": "18:00", "title": "六本木之丘 Roppongi Hills 展望台", "type": "random", "lat": 35.6605, "lng": 139.7292 },
+        { 
+          "time": "20:00", 
+          "title": "晚餐：焼肉ホルモン金樹 はなれ", 
+          "type": "reserved", 
+          "code": "43CJF6HTVM", 
+          "lat": 35.6631, "lng": 139.7325 
+        }
+      ],
+      "optional_tea": ["pst roppongi", "butagumi shokudo"]
+    },
+    {
+      "day": "Day 3",
+      "date": "2026-09-27",
+      "title": "惠比寿·代官山·中目黑 潮流购物",
+      "events": [
+        { 
+          "time": "11:00", 
+          "title": "东京都庭园美术馆", 
+          "type": "museum", 
+          "ticket_url": "https://www.teien-art-museum.ne.jp/", 
+          "hours": "10:00-18:00", 
+          "lat": 35.6369, "lng": 139.7186 
+        },
+        { "time": "12:30", "title": "午餐：Yakuzen Soup Curry SHANIA", "type": "food_A", "lat": 35.6421, "lng": 139.7132 },
+        { "time": "14:00-19:00", "title": "代官山 - 中目黑 品牌店巡游", "type": "shopping_area" },
+        { "time": "20:00", "title": "晚餐可选：焼鳥 佐田十郎 @中目黒", "type": "food_B", "lat": 35.6441, "lng": 139.6988 }
+      ],
+      "shops": [
+        { "name": "Hollywood Ranch Market", "hours": "11:00-19:00", "lat": 35.6482, "lng": 139.7006 },
+        { "name": "Saturdays NYC Tokyo", "hours": "11:00-20:00", "lat": 35.6491, "lng": 139.7018 },
+        { "name": "nanamica Daikanyama", "hours": "11:00-20:00", "lat": 35.6498, "lng": 139.7011 },
+        { "name": "Denham Daikanyama", "hours": "11:00-20:00", "lat": 35.6489, "lng": 139.7001 },
+        { "name": "A.P.C. Daikanyama", "hours": "11:00-20:00", "lat": 35.6485, "lng": 139.6995 },
+        { "name": "F/CE. Flagship Store", "hours": "12:00-20:00", "lat": 35.6476, "lng": 139.6963 },
+        { "name": "Hender Scheme 'Sukima'", "hours": "12:00-20:00", "lat": 35.6465, "lng": 139.6932 },
+        { "name": "Maison Margiela Omotesando/Ebisu", "hours": "12:00-20:00", "lat": 35.6451, "lng": 139.7092 },
+        { "name": "I'm Donut? Nakameguro", "hours": "10:00-20:00", "lat": 35.6443, "lng": 139.6989 }
+      ]
+    },
+    {
+      "day": "Day 4",
+      "date": "2026-09-28",
+      "title": "表参道·原宿·涩谷 潮流全览",
+      "events": [
+        { "time": "11:30", "title": "午餐：日本橋とんかつ HANARE", "type": "food_A", "lat": 35.6872, "lng": 139.7741 },
+        { "time": "13:00-19:30", "title": "表参道 ➔ 原宿 ➔ 涩谷 狂欢", "type": "shopping_area" },
+        { 
+          "time": "20:00", 
+          "title": "晚餐：RODEO & Cafe", 
+          "type": "reserved", 
+          "code": "7YZ63THFRR", 
+          "lat": 35.6455, "lng": 139.7081 
+        }
+      ],
+      "shops": [
+        { "name": "Kith Tokyo", "hours": "11:00-21:00", "lat": 35.6622, "lng": 139.7018 },
+        { "name": "Arc'Teryx Tokyo Ginza/Omotesando", "hours": "11:00-20:00", "lat": 35.6668, "lng": 139.7075 },
+        { "name": "Goldwin Tokyo", "hours": "11:00-20:00", "lat": 35.6661, "lng": 139.7062 },
+        { "name": "Undercover Aoyama", "hours": "11:00-20:00", "lat": 35.6635, "lng": 139.7145 },
+        { "name": "COMOLI", "hours": "12:00-20:00", "lat": 35.6618, "lng": 139.7152 },
+        { "name": "H BEAUTY&YOUTH", "hours": "12:00-20:00", "lat": 35.6629, "lng": 139.7138 },
+        { "name": "Tower Records Shibuya", "hours": "11:00-22:00", "lat": 35.6619, "lng": 139.7004 },
+        { "name": "Laforet Harajuku", "hours": "11:00-20:00", "lat": 35.6691, "lng": 139.7056 }
+      ]
+    },
+    {
+      "day": "Day 5",
+      "date": "2026-09-29",
+      "title": "上野艺术展与银座选品",
+      "events": [
+        { "time": "11:30", "title": "午餐：333 Vietnamese Restaurant", "type": "food_A", "lat": 35.6581, "lng": 139.7019 },
+        { 
+          "time": "13:00", 
+          "title": "国立西洋美术馆", 
+          "type": "museum", 
+          "ticket_url": "https://www.nmwa.go.jp/", 
+          "hours": "09:30-17:30", 
+          "lat": 35.7154, "lng": 139.7758 
+        },
+        { 
+          "time": "15:00", 
+          "title": "东京都美术馆", 
+          "type": "museum", 
+          "ticket_url": "https://www.tobikan.jp/", 
+          "hours": "09:30-17:30", 
+          "lat": 35.7172, "lng": 139.7745 
+        },
+        { "time": "17:00", "title": "银座商业区巡游 (KITTE, CDG, DSM, Ginza Six)", "type": "shopping_area", "lat": 35.6715, "lng": 139.7650 },
+        { "time": "20:00", "title": "晚餐可选：鮨 銀座おのでら 或 PIZZERIA IL TAMBURELLO", "type": "food_B", "lat": 35.6701, "lng": 139.7682 }
+      ]
+    },
+    {
+      "day": "Day 6",
+      "date": "2026-09-30",
+      "title": "转场箱根·入住芦之湖",
+      "transports": [
+        "13:30 从新日本桥乘 JR 总武线快速到东京站。",
+        "14:07 东京站乘 JR 东海道本线 ➔ 15:25 抵小田原站（1h 18m）。",
+        "16:15 小田原站西口乘酒店 Shuttle Bus 前往箱根芦之湖王子大饭店 (约 50m，预约码: DHSA5Z)。"
+      ],
+      "events": [
+        { "time": "12:00", "title": "午餐可选：Utsuke躻 或 小田原站Torimatsu小田原城下町らぁ麺 鶏松", "type": "food_B" },
+        { "time": "17:10", "title": "入住 ザ・プリンス 箱根芦ノ湖 自由活动", "type": "hotel", "lat": 35.2155, "lng": 139.0068 }
+      ]
+    },
+    {
+      "day": "Day 7",
+      "date": "2026-10-01",
+      "title": "箱根美术馆游览 ➔ 横滨",
+      "transports": [
+        "12:00 乘 H 箱根町线至雕刻之森。",
+        "15:13 雕刻之森乘 H 箱根町线至小田原站。",
+        "小田原站乘 JR 东海道线 + 港未来线 ➔ 横滨 Pier 8 酒店。"
+      ],
+      "events": [
+        { 
+          "time": "10:30", 
+          "title": "成川美术馆", 
+          "type": "museum", 
+          "ticket_url": "http://www.narukawa-art-museum.com/", 
+          "hours": "09:00-17:00", 
+          "lat": 35.2023, "lng": 139.0321 
+        },
+        { 
+          "time": "12:30", 
+          "title": "雕刻之森美术馆", 
+          "type": "museum", 
+          "ticket_url": "https://www.hakone-oam.or.jp/", 
+          "hours": "09:00-17:00", 
+          "lat": 35.2442, "lng": 139.0514 
+        },
+        { "time": "17:30", "title": "入住 InterContinental Yokohama Pier 8", "type": "hotel", "lat": 35.4568, "lng": 139.6418 },
+        { 
+          "time": "20:00", 
+          "title": "晚餐：シシリヤ Sisiliya", 
+          "type": "reserved", 
+          "lat": 35.4452, "lng": 139.6398 
+        }
+      ]
+    },
+    {
+      "day": "Day 8",
+      "date": "2026-10-02",
+      "title": "横滨艺术展与顶级美食",
+      "events": [
+        { "time": "12:00", "title": "午餐预约：鮨 なかがわ", "type": "reserved", "lat": 35.4435, "lng": 139.6361 },
+        { "time": "14:00", "title": "横滨美术馆", "type": "museum", "ticket_url": "https://yokohama.art.museum/", "hours": "10:00-18:00", "lat": 35.4578, "lng": 139.6304 },
+        { "time": "16:00", "title": "横滨古代埃及展", "type": "museum", "lat": 35.4560, "lng": 139.6320 },
+        { "time": "20:00", "title": "晚餐预约：地葉はなれ", "type": "reserved", "lat": 35.4468, "lng": 139.6352 }
+      ]
+    },
+    {
+      "day": "Day 9",
+      "date": "2026-10-03",
+      "title": "横滨退房 ➔ 高轮/大井町入住",
+      "transports": [
+        "12:00 横滨乘 JR 根岸线/京滨东北线 ➔ 大井町站，入住 Hotel Metropolitan Oimachi Tracks Tokyo。"
+      ],
+      "events": [
+        { "time": "13:00", "title": "NEWoMan 高轮 (NEWoMan Takanawa)", "type": "random", "lat": 35.6285, "lng": 139.7388 },
+        { "time": "15:00", "title": "大井町 Tracks 区域自由活动与购物", "type": "random", "lat": 35.6064, "lng": 139.7348 }
+      ]
+    },
+    {
+      "day": "Day 10",
+      "date": "2026-10-04",
+      "title": "大井町 ➔ 成田机场 ➔ 告别东京",
+      "transports": [
+        "15:30 大井町站乘 JR 京滨东北线 (1 站 3 分钟) ➔ 品川站。",
+        "15:45-16:00 品川站换乘 JR 成田特快 N'EX ➔ 直达成田机场 T1 (约 1 小时 05 分)，预计 17:00-17:15 抵达机场。"
+      ],
+      "events": [
+        { "time": "17:15", "title": "抵达成田机场 T1 办理登机", "type": "fixed", "lat": 35.7647, "lng": 140.3863 },
+        { "time": "19:25", "title": "航班 CA434 起飞返回重庆", "type": "fixed" }
+      ]
+    }
+  ]
+}
