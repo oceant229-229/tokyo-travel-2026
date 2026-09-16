@@ -5,14 +5,14 @@
 
 /* ---------- 1. 类型元数据 ---------- */
 const TYPE_META = {
-  hotel:    { label: '酒店',      color: '#2563eb', emoji: '🏨' },
-  reserved: { label: '准时预约',  color: '#dc2626', emoji: '⏰' },
-  fixed:    { label: '固定行程',  color: '#ef4444', emoji: '📍' },
-  museum:   { label: '美展展讯',  color: '#7c3aed', emoji: '🎨' },
-  food_A:   { label: '餐饮 A',    color: '#f59e0b', emoji: '🍜' },
-  food_B:   { label: '餐饮 B',    color: '#ca8a04', emoji: '🍰' },
-  random:   { label: '随机行程',  color: '#16a34a', emoji: '🎲' },
-  shop:     { label: '可选店铺',  color: '#16a34a', emoji: '🛍️' }
+  hotel:    { label: '酒店',      color: '#0071e3', emoji: '❤️' },
+  reserved: { label: '准时预约',  color: '#e30000', emoji: '☕️' },
+  fixed:    { label: '固定行程',  color: '#ff3b30', emoji: '📍' },
+  museum:   { label: '美展展讯',  color: '#af52de', emoji: '📍' },
+  food_A:   { label: '餐饮 A',    color: '#ff9500', emoji: '☕️' },
+  food_B:   { label: '餐饮 B',    color: '#ffcc00', emoji: '☕️' },
+  random:   { label: '随机行程',  color: '#34c759', emoji: '❗️' },
+  shop:     { label: '可选店铺',  color: '#30d158', emoji: '❗️' }
 };
 
 const LEGEND_ORDER = ['hotel', 'reserved', 'fixed', 'museum', 'food_A', 'food_B', 'random', 'shop'];
