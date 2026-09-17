@@ -5,13 +5,13 @@
     "flights": {
       "outbound": {
         "code": "CA433",
-        "airline": "中国国际航空",
+        "airline": "中国国航",
         "from": { "city": "重庆江北", "terminal": "T3", "time": "2026-09-25T12:50:00+08:00" },
         "to":   { "city": "东京成田", "terminal": "T1", "time": "2026-09-25T18:25:00+09:00" }
       },
       "inbound": {
         "code": "CA434",
-        "airline": "中国国际航空",
+        "airline": "中国国航",
         "from": { "city": "东京成田", "terminal": "T1", "time": "2026-10-04T19:25:00+09:00" },
         "to":   { "city": "重庆江北", "terminal": "T3", "time": "2026-10-05T00:05:00+08:00" }
       }
@@ -32,17 +32,17 @@
           "type": "fixed",
           "title": "成田机场 T1 抵达",
           "time": "18:25",
-          "desc": "CA433 到达，入境取行李",
+          "desc": "CA433 · 重庆江北T3 → 东京成田T1",
           "lat": 35.7719,
           "lng": 140.3928
         },
         {
           "id": "d1-jr",
           "type": "fixed",
-          "title": "JR 成田线·总武快速线",
+          "title": "JR 成田线・总武快速线",
           "time": "20:00",
           "endTime": "21:20",
-          "desc": "成田T1 上车，往久里滨/逗子/横须贺方向，直达新日本桥站",
+          "desc": "成田机场T1 上车 · 往久里滨/逗子/横须贺方向 · 直达新日本桥站 · 车程约1小时20分钟",
           "lat": 35.7719,
           "lng": 140.3928
         },
@@ -51,9 +51,9 @@
           "type": "hotel",
           "title": "Mitsui Garden Hotel Nihonbashi Premier",
           "time": "21:20",
-          "desc": "三井ガーデンホテル日本橋プレミア · 出站步行1分钟 · 连住5晚",
-          "lat": 35.6862,
-          "lng": 139.7733
+          "desc": "三井ガーデンホテル日本橋プレミア · 出站直通/步行1分钟 · 连住5晚",
+          "lat": 35.6855,
+          "lng": 139.7745
         }
       ]
     },
@@ -67,12 +67,12 @@
       "zoom": 12,
       "items": [
         {
-          "id": "d2-hotel",
+          "id": "d2-wakeup",
           "type": "hotel",
-          "title": "酒店出发",
+          "title": "10点起床 · 酒店出发",
           "time": "10:00",
-          "lat": 35.6862,
-          "lng": 139.7733
+          "lat": 35.6855,
+          "lng": 139.7745
         },
         {
           "id": "d2-hayashida",
@@ -80,23 +80,23 @@
           "title": "らぁ麺 はやし田 新宿本店",
           "time": "11:00",
           "desc": "午饭 · 拉面",
-          "lat": 35.6913,
-          "lng": 139.7045
+          "lat": 35.6938,
+          "lng": 139.7036
         },
         {
           "id": "d2-gyoen",
           "type": "fixed",
-          "title": "新宿御苑",
+          "title": "新宿御苑旧大木戸門衛所",
           "time": "12:00",
-          "lat": 35.6852,
-          "lng": 139.7100
+          "desc": "11 Naitomachi, Shinjuku City, Tokyo 160-0014, Japan · 步行前往",
+          "lat": 35.6857,
+          "lng": 139.7080
         },
         {
           "id": "d2-nact",
           "type": "museum",
           "title": "国立新美术馆 · 卢浮宫展",
           "time": "14:00",
-          "endTime": "16:00",
           "desc": "达芬奇《美丽的费隆妮叶夫人》",
           "lat": 35.6654,
           "lng": 139.7266
@@ -105,7 +105,7 @@
           "id": "d2-2121",
           "type": "museum",
           "title": "21_21 DESIGN SIGHT",
-          "time": "16:00",
+          "time": "15:00",
           "lat": 35.6655,
           "lng": 139.7306
         },
@@ -113,34 +113,34 @@
           "id": "d2-midtown",
           "type": "fixed",
           "title": "Tokyo Midtown",
-          "time": "16:30",
+          "time": "16:00",
           "lat": 35.6663,
           "lng": 139.7306
         },
         {
           "id": "d2-pst",
           "type": "food_B",
-          "title": "pst roppongi（下午茶备选）",
+          "title": "pst roppongi（可选下午茶）",
           "time": "17:00",
-          "desc": "可选下午茶",
+          "desc": "可选下午茶行程",
           "lat": 35.6628,
           "lng": 139.7320
         },
         {
           "id": "d2-butagumi",
           "type": "food_B",
-          "title": "Butagumi Shokudo（下午茶备选）",
+          "title": "Butagumi Shokudo（可选下午茶）",
           "time": "17:00",
-          "desc": "可选下午茶",
-          "lat": 35.6642,
-          "lng": 139.7306
+          "desc": "可选下午茶行程",
+          "lat": 35.6640,
+          "lng": 139.7300
         },
         {
           "id": "d2-hills",
           "type": "random",
           "title": "六本木之丘",
-          "time": "18:30",
-          "desc": "可选前往",
+          "time": "18:00",
+          "desc": "可前往",
           "lat": 35.6604,
           "lng": 139.7292
         },
@@ -149,9 +149,9 @@
           "type": "reserved",
           "title": "焼肉ホルモン金樹 はなれ",
           "time": "20:00",
-          "desc": "晚餐预约",
-          "lat": 35.6636,
-          "lng": 139.7346,
+          "desc": "Japan, 〒107-0052 Tokyo, Minato City, Akasaka, 2 Chome−14−7 赤坂栄ビル 2F · 务必到达",
+          "lat": 35.6710,
+          "lng": 139.7370,
           "bookingCode": "43CJF6HTVM"
         }
       ]
@@ -166,12 +166,12 @@
       "zoom": 13,
       "items": [
         {
-          "id": "d3-hotel",
+          "id": "d3-wakeup",
           "type": "hotel",
-          "title": "酒店出发",
+          "title": "10点起床 · 酒店出发",
           "time": "10:00",
-          "lat": 35.6862,
-          "lng": 139.7733
+          "lat": 35.6855,
+          "lng": 139.7745
         },
         {
           "id": "d3-teien",
@@ -186,28 +186,28 @@
           "type": "food_A",
           "title": "Yakuzen Soup Curry SHANIA",
           "time": "12:30",
-          "desc": "午饭 · 药膳汤咖喱",
-          "lat": 35.6440,
-          "lng": 139.7100
+          "desc": "午饭 · 1 Chome-5-5 Mita, Meguro City, Tokyo 153-0062, Japan",
+          "lat": 35.6289,
+          "lng": 139.6977
         },
         {
-          "id": "d3-ebisu",
+          "id": "d3-shopping",
           "type": "shop",
           "title": "惠比寿 → 代官山 → 中目黑",
           "time": "14:00",
           "endTime": "19:00",
-          "desc": "Hollywood Ranch Market · Saturdays NYC · nanamica · Denham · MHL · Issey Miyake · A.P.C · F/CE · White Mountaineering · Descent Blanc · I'm Donut? · JIEDA · 1LDK · PHIGVEL · Hender Scheme · FMDTL · LEMAIRE · Maison Margiela",
-          "lat": 35.6467,
-          "lng": 139.7100
+          "desc": "全购物路线。品牌：Hollywood Ranch Market · Saturdays NYC · nanamica · Denham · MHL · Issey Miyake · A.P.C · F/CE · White Mountaineering · Descent Blanc · I'm Donut? · JIEDA · 1LDK · PHIGVEL · Hender Scheme · FMDTL · LEMAIRE · Maison Margiela",
+          "lat": 35.6440,
+          "lng": 139.6987
         },
         {
           "id": "d3-sadajuro",
           "type": "food_A",
-          "title": "焼鳥 佐田十郎 @中目黒",
-          "time": "19:30",
-          "desc": "晚餐（可选）",
+          "title": "焼鳥 佐田十郎 中目黒",
+          "time": "待定",
+          "desc": "晚饭 · Japan, 〒153-0051 Tokyo, Meguro City, Kamimeguro, 1 Chome−3−19 Ebisu Ss Bldg., 地下1階 · 时间待定",
           "lat": 35.6440,
-          "lng": 139.6987
+          "lng": 139.6990
         }
       ]
     },
@@ -221,12 +221,12 @@
       "zoom": 12,
       "items": [
         {
-          "id": "d4-hotel",
+          "id": "d4-wakeup",
           "type": "hotel",
-          "title": "酒店出发",
+          "title": "11点起 · 酒店出发",
           "time": "11:00",
-          "lat": 35.6862,
-          "lng": 139.7733
+          "lat": 35.6855,
+          "lng": 139.7745
         },
         {
           "id": "d4-tonkatsu",
@@ -240,10 +240,19 @@
         {
           "id": "d4-omotesando",
           "type": "shop",
-          "title": "表参道 → 原宿 → 涩谷",
-          "time": "14:00",
+          "title": "Omote-Sando Station 表参道駅 · 开始逛街",
+          "time": "12:30",
+          "desc": "从表参道駅开始，步行延伸至原宿、涩谷",
+          "lat": 35.6652,
+          "lng": 139.7124
+        },
+        {
+          "id": "d4-brands",
+          "type": "shop",
+          "title": "表参道 · 原宿 · 涩谷 品牌一览",
+          "time": "12:30",
           "endTime": "19:30",
-          "desc": "VANS · Goldwin · ArcTeryx · united tokyo · danton · public tokyo · saucony · patagonia · oakley · dickies · Kith · EDWIN · Patagonia Surf Tokyo / Outlet · Vivienne Westwood Red Label · RAGTAG · PUEBCO · 2ND · KINDAL · Tower Records Shibuya · Laforet Harajuku · Polene · Undercover · COMOLI · H BEAUTY&YOUTH · Tom Wood · Agete · KEF · COS · ARTS&SCIENCE",
+          "desc": "VANS · Goldwin · ArcTeryx · united tokyo · danton · public tokyo · saucony · patagonia · oakely · dickies · Kith · EDWIN · Patagonia Surf Tokyo / Outlet · Vivienne Westwood Red Label · RAGTAG · PUEBCO · 2ND · KINDAL · Tower Records Shibuya · Laforet Harajuku · Polene · Undercover · COMOLI · H BEAUTY&YOUTH · Tom Wood · Agete · KEF · COS · ARTS&SCIENCE",
           "lat": 35.6652,
           "lng": 139.7124
         },
@@ -252,9 +261,9 @@
           "type": "reserved",
           "title": "RODEO & Cafe",
           "time": "20:00",
-          "desc": "晚餐预约",
-          "lat": 35.6627,
-          "lng": 139.7037,
+          "desc": "35-1 Udagawacho, Shibuya, Tokyo 150-0042, Japan · 晚餐预约",
+          "lat": 35.6615,
+          "lng": 139.6980,
           "bookingCode": "7YZ63THFRR"
         }
       ]
@@ -269,27 +278,27 @@
       "zoom": 12,
       "items": [
         {
-          "id": "d5-hotel",
+          "id": "d5-wakeup",
           "type": "hotel",
-          "title": "酒店出发",
+          "title": "11点起 · 酒店出发",
           "time": "11:00",
-          "lat": 35.6862,
-          "lng": 139.7733
+          "lat": 35.6855,
+          "lng": 139.7745
         },
         {
           "id": "d5-333",
           "type": "food_A",
           "title": "333 Vietnamese Restaurant",
-          "time": "12:00",
+          "time": "11:30",
           "desc": "午饭 · 越南菜",
-          "lat": 35.6900,
-          "lng": 139.7700
+          "lat": 35.6850,
+          "lng": 139.7740
         },
         {
           "id": "d5-nmwa",
           "type": "museum",
           "title": "国立西洋美术馆",
-          "time": "14:00",
+          "time": "12:30",
           "lat": 35.7154,
           "lng": 139.7756
         },
@@ -297,26 +306,42 @@
           "id": "d5-tobikan",
           "type": "museum",
           "title": "东京都美术馆",
-          "time": "15:30",
+          "time": "14:30",
+          "desc": "看展",
           "lat": 35.7170,
           "lng": 139.7730
         },
         {
           "id": "d5-kitte",
           "type": "shop",
-          "title": "银座 · KITTE · 松屋 · Ginza Six",
-          "time": "17:00",
-          "endTime": "20:00",
-          "desc": "KITTE：astier de villatte · arts science · conran shop / CDG · DSM · Hankyu Mens · 银座松屋 · Ginza Six",
+          "title": "KITTE Marunouchi",
+          "time": "16:00",
+          "desc": "astier de villatte · arts science · conran shop",
           "lat": 35.6797,
           "lng": 139.7648
+        },
+        {
+          "id": "d5-matsuya",
+          "type": "shop",
+          "title": "Matsuya Ginza 松屋銀座",
+          "time": "18:00",
+          "lat": 35.6717,
+          "lng": 139.7667
+        },
+        {
+          "id": "d5-ginza-six",
+          "type": "shop",
+          "title": "Ginza Six",
+          "time": "18:00",
+          "lat": 35.6696,
+          "lng": 139.7640
         },
         {
           "id": "d5-onodera",
           "type": "food_A",
           "title": "鮨 銀座おのでら 総本店",
-          "time": "20:30",
-          "desc": "晚餐（可选 · 主选）",
+          "time": "20:00",
+          "desc": "晚饭（可选一）",
           "lat": 35.6710,
           "lng": 139.7640
         },
@@ -324,8 +349,8 @@
           "id": "d5-tamburello",
           "type": "food_B",
           "title": "PIZZERIA IL TAMBURELLO",
-          "time": "20:30",
-          "desc": "晚餐（可选 · 备选）",
+          "time": "20:00",
+          "desc": "晚饭（可选二）",
           "lat": 35.6690,
           "lng": 139.7620
         }
@@ -341,39 +366,38 @@
       "zoom": 9,
       "items": [
         {
+          "id": "d6-wakeup",
+          "type": "hotel",
+          "title": "11点起 · 酒店出发",
+          "time": "11:00",
+          "lat": 35.6855,
+          "lng": 139.7745
+        },
+        {
           "id": "d6-utsuke",
           "type": "food_A",
           "title": "Utsuke 躻",
-          "time": "11:30",
+          "time": "12:00",
           "desc": "午饭 · 酒店附近",
           "lat": 35.6850,
           "lng": 139.7740
         },
         {
-          "id": "d6-checkout",
-          "type": "hotel",
-          "title": "三井花园酒店 退房",
-          "time": "13:00",
-          "desc": "5晚结束",
-          "lat": 35.6862,
-          "lng": 139.7733
+          "id": "d6-shinjuku-bashi",
+          "type": "fixed",
+          "title": "新日本桥 → 东京站",
+          "time": "13:30",
+          "desc": "地铁 Sōbu Line (Rapid) RapidKurihama",
+          "lat": 35.6820,
+          "lng": 139.7740
         },
         {
           "id": "d6-tokyo-st",
           "type": "fixed",
-          "title": "新日本桥 → 东京站",
-          "time": "13:30",
-          "desc": "地铁总武线快速",
-          "lat": 35.6812,
-          "lng": 139.7671
-        },
-        {
-          "id": "d6-odawara",
-          "type": "fixed",
           "title": "东京站 → 小田原站",
           "time": "14:07",
           "endTime": "15:25",
-          "desc": "JR 东海道本线，耗时约1小时18分",
+          "desc": "JR 东日本 · 东海道本线 · 耗时约1小时18分",
           "lat": 35.2564,
           "lng": 139.1553
         },
@@ -382,7 +406,7 @@
           "type": "food_B",
           "title": "Torimatsu 小田原城下町らぁ麺 鶏松",
           "time": "15:30",
-          "desc": "加餐（可选）",
+          "desc": "小田原站到达后可加餐（可选）",
           "lat": 35.2540,
           "lng": 139.1560
         },
@@ -392,7 +416,7 @@
           "title": "酒店 Shuttle Bus",
           "time": "16:15",
           "endTime": "17:05",
-          "desc": "小田原駅西口 · 约50分钟",
+          "desc": "小田原駅西口 出发 · 约50分钟 · 已预约",
           "lat": 35.2564,
           "lng": 139.1553,
           "bookingCode": "DHSA5Z · YILUN QU"
@@ -402,7 +426,7 @@
           "type": "hotel",
           "title": "The Prince Hakone Lake Ashinoko",
           "time": "17:05",
-          "desc": "ザ·プリンス 箱根芦ノ湖 · 入住",
+          "desc": "ザ·プリンス 箱根芦ノ湖 · 入住 · 晚上自由活动",
           "lat": 35.2003,
           "lng": 139.0200
         }
@@ -418,9 +442,9 @@
       "zoom": 9,
       "items": [
         {
-          "id": "d7-hotel",
+          "id": "d7-wakeup",
           "type": "hotel",
-          "title": "酒店出发",
+          "title": "10点起 · 酒店出发",
           "time": "10:00",
           "lat": 35.2003,
           "lng": 139.0200
@@ -436,7 +460,7 @@
         {
           "id": "d7-chokoku-go",
           "type": "fixed",
-          "title": "乘 H 箱根町线 → 雕刻之森",
+          "title": "乘 Ｈ箱根町線 → 雕刻之森",
           "time": "12:00",
           "desc": "箱根登山巴士 H 线",
           "lat": 35.2036,
@@ -452,29 +476,29 @@
           "lng": 139.0522
         },
         {
-          "id": "d7-odawara",
+          "id": "d7-odawara-back",
           "type": "fixed",
           "title": "雕刻之森 → 小田原站",
           "time": "15:13",
-          "desc": "H 箱根町线",
+          "desc": "乘 Ｈ箱根町線",
           "lat": 35.2564,
           "lng": 139.1553
         },
         {
           "id": "d7-yokohama",
           "type": "fixed",
-          "title": "小田原 → 横滨",
+          "title": "小田原站 → 横滨",
           "time": "16:00",
-          "desc": "JR 东海道线 + 港未来线",
+          "desc": "JR Tōkaidō Line + Minatomirai Line",
           "lat": 35.4657,
           "lng": 139.6222
         },
         {
           "id": "d7-ic",
           "type": "hotel",
-          "title": "InterContinental Yokohama Pier 8",
+          "title": "InterContinental Yokohama Pier 8 by IHG",
           "time": "17:30",
-          "desc": "インターコンチネンタル横浜 Pier 8 · 入住",
+          "desc": "インターコンチネンタル横浜Pier 8 · 入住",
           "lat": 35.4569,
           "lng": 139.6397
         },
@@ -493,7 +517,7 @@
       "label": "Day 8",
       "date": "2026-10-02",
       "title": "横滨一日",
-      "subtitle": "鮨 · 美术馆 · 埃及展",
+      "subtitle": "鮨 · 横滨美术馆 · 埃及展",
       "city": "横滨",
       "center": [35.4600, 139.6300],
       "zoom": 13,
@@ -512,7 +536,6 @@
           "type": "museum",
           "title": "横滨美术馆",
           "time": "14:00",
-          "endTime": "16:00",
           "lat": 35.4562,
           "lng": 139.6313
         },
@@ -539,7 +562,7 @@
       "label": "Day 9",
       "date": "2026-10-03",
       "title": "横滨 → 大井町",
-      "subtitle": "换酒店 · 自由活动",
+      "subtitle": "换酒店 · newwoman 高轮",
       "city": "东京",
       "center": [35.55, 139.72],
       "zoom": 11,
@@ -547,16 +570,16 @@
         {
           "id": "d9-checkout",
           "type": "hotel",
-          "title": "InterContinental 退房",
-          "time": "12:00",
+          "title": "11点退房 · InterContinental Yokohama Pier 8",
+          "time": "11:00",
           "lat": 35.4569,
           "lng": 139.6397
         },
         {
           "id": "d9-negishi",
           "type": "fixed",
-          "title": "乘根岸线 Negishi Line → 大井町",
-          "time": "12:30",
+          "title": "乘 Negishi Line → 大井町",
+          "time": "11:30",
           "desc": "JR 根岸线，前往大井町站",
           "lat": 35.4657,
           "lng": 139.6222
@@ -565,28 +588,37 @@
           "id": "d9-hotel",
           "type": "hotel",
           "title": "Hotel Metropolitan Oimachi Tracks Tokyo",
-          "time": "13:00",
+          "time": "12:00",
           "desc": "ホテルメトロポリタン 大井町トラックス · 入住",
           "lat": 35.6066,
           "lng": 139.7348
         },
         {
+          "id": "d9-sobamichi",
+          "type": "food_A",
+          "title": "Sobamichi west side そば道 西のはなれ",
+          "time": "12:30",
+          "desc": "午饭",
+          "lat": 35.6070,
+          "lng": 139.7350
+        },
+        {
           "id": "d9-newwoman",
           "type": "shop",
           "title": "NEWoMan 高轮",
-          "time": "13:30",
-          "desc": "购物（高轮 Gateway 站）",
+          "time": "14:30",
+          "desc": "购物 · 高轮 Gateway 站",
           "lat": 35.6318,
           "lng": 139.7355
         },
         {
-          "id": "d9-free",
-          "type": "random",
-          "title": "大井町周边自由活动",
-          "time": "17:00",
-          "desc": "可选参考：Atre 大井町 · 阪急 Oimachi · 站前商店街。晚餐自由安排。",
-          "lat": 35.6072,
-          "lng": 139.7352
+          "id": "d9-poppo",
+          "type": "food_A",
+          "title": "ポッポコリヤ",
+          "time": "19:00",
+          "desc": "晚餐（可选） · Japan, 〒140-0011 Tokyo, Shinagawa City, Higashioi, 5 Chome−15−10 1F",
+          "lat": 35.6035,
+          "lng": 139.7350
         }
       ]
     },
@@ -600,20 +632,28 @@
       "zoom": 10,
       "items": [
         {
-          "id": "d10-free",
-          "type": "random",
-          "title": "退房前自由活动",
-          "time": "10:00",
-          "endTime": "12:30",
-          "desc": "可选参考：大井町/品川周边散步、午餐。13:00 前返回酒店退房。",
+          "id": "d10-checkout",
+          "type": "hotel",
+          "title": "11点退房 · Hotel Metropolitan Oimachi",
+          "time": "11:00",
           "lat": 35.6066,
           "lng": 139.7348
         },
         {
-          "id": "d10-checkout",
-          "type": "hotel",
-          "title": "Hotel Metropolitan Oimachi 退房",
-          "time": "13:00",
+          "id": "d10-sushi",
+          "type": "food_A",
+          "title": "Shiogameko 廻鮮寿司 塩釜港 大井町トラックス",
+          "time": "12:00",
+          "desc": "午饭",
+          "lat": 35.6066,
+          "lng": 139.7348
+        },
+        {
+          "id": "d10-walk",
+          "type": "random",
+          "title": "大井町附近闲逛",
+          "time": "13:30",
+          "desc": "出发机场前",
           "lat": 35.6066,
           "lng": 139.7348
         },
@@ -622,17 +662,17 @@
           "type": "fixed",
           "title": "大井町 → 品川",
           "time": "15:00",
-          "desc": "JR 京滨东北线，1站约3分钟",
+          "desc": "JR 京滨东北线（往东京/赤羽方向）· 1站 · 约3分钟",
           "lat": 35.6285,
           "lng": 139.7387
         },
         {
           "id": "d10-nex",
           "type": "fixed",
-          "title": "品川 → 成田机场 T1",
+          "title": "品川 → 成田机场第1航厦站",
           "time": "15:50",
           "endTime": "17:10",
-          "desc": "JR 成田特快 N'EX，约1小时05分",
+          "desc": "JR 成田特快 N'EX · 约1小时05分 · 站内换乘 · 总用时约1小时15分–1小时25分（含换乘）",
           "lat": 35.6285,
           "lng": 139.7387
         },
@@ -641,7 +681,7 @@
           "type": "fixed",
           "title": "成田机场 T1 · 值机",
           "time": "17:15",
-          "desc": "CA434 · 19:25 起飞",
+          "desc": "CA434 · 19:25 起飞 · 东京成田T1 → 重庆江北T3",
           "lat": 35.7719,
           "lng": 140.3928
         }
